@@ -1,0 +1,9 @@
+[package]
+name = "jc1-ct-bridge"
+version = "0.1.0"
+edition = "2021"
+description = "Bridge between JC1's CUDA fleet and Constraint Theory Core — math replaces ML"
+repository = "https://github.com/SuperInstance/jc1-ct-bridge"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
